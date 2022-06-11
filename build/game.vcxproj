@@ -259,8 +259,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Character.cpp" />
     <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Character.hpp" />
-    <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\TestCharacter.cpp" />
-    <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\TestCharacter.hpp" />
+    <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Mage.hpp" />
+    <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Mage.cpp" />
+    <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Warrior.hpp" />
+    <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Warrior.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\build\ZERO_CHECK.vcxproj">

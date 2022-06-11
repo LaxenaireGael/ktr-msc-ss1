@@ -4,7 +4,10 @@
     <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Character.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\TestCharacter.cpp">
+    <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Mage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Warrior.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -12,7 +15,10 @@
     <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Character.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\TestCharacter.hpp">
+    <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Mage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Warrior.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

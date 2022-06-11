@@ -1,16 +1,14 @@
 #include <iostream>
-#include "TestCharacter.hpp"
+#include "Warrior.hpp"
+#include "Mage.hpp"
 using namespace std;
 
 int main(){
-    TestCharacter perso = TestCharacter("Jean-Luc");
-    cout<< perso.getName() << endl;
-    cout<< perso.getLife() << endl;
-    cout<< perso.getAgility() << endl;
-    cout<< perso.getStrength() << endl;
-    cout<< perso.getWit() << endl;
-    cout<< perso.getRPGClass() << endl;
-    perso.attack("my weapon");
+    Warrior warrior("Jean-Luc");
+    Mage mage("Robert");
+
+    warrior.attack("hammer");
+    mage.attack("magic");
 
     return 0;
 }
