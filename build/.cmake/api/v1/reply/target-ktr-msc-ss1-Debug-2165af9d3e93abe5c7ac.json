@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/ktr-msc-ss1.exe"
+			"path" : "Debug/ktr-msc-ss1.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/ktr-msc-ss1.pdb"
+			"path" : "Debug/ktr-msc-ss1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
 				}
 			],
 			"language" : "CXX",
@@ -58,11 +58,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
-			"id" : "game::@6890427a1f51a3e7e1df"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"backtrace" : 2,
+			"id" : "game::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ktr-msc-ss1::@6890427a1f51a3e7e1df",
@@ -71,7 +71,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
 				"role" : "flags"
 			},
 			{
@@ -80,7 +80,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "RelWithDebInfo\\game.lib",
+				"fragment" : "Debug\\game.lib",
 				"role" : "libraries"
 			},
 			{
