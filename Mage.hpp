@@ -9,6 +9,10 @@ class Mage : public Character{
         Mage(string name);
         ~Mage();
         void attack(string weapon);
+        void moveRight();
+        void moveLeft();
+        void moveForward();
+        void moveBack();
 };
 
 #endif

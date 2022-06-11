@@ -1,6 +1,6 @@
 #include "Character.hpp"
 
-Character::Character(string name, string RPGClass){
+Character::Character(string name, string RPGClass): Movable(){
     this->name = name;
     this->RPGClass = RPGClass;
     this->life = 50;
@@ -35,4 +35,20 @@ int Character::getWit() const{
 
 void Character::attack(string random){
     cout << name << ":  Rrrrrrrrr ...." << endl;
+}
+
+void Character::moveRight(){
+    cout << name << ": moves right" << endl;
+}
+
+void Character::moveLeft(){
+    cout << name << ": moves left" << endl;
+}
+
+void Character::moveForward(){
+    cout << name << ": moves forward" << endl;
+}
+
+void Character::moveBack(){
+    cout << name << ": moves back" << endl;
 }

@@ -10,6 +10,9 @@
     <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Warrior.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Movable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Character.hpp">
@@ -19,6 +22,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Warrior.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Movable.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

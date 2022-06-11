@@ -9,6 +9,10 @@ class Warrior : public Character{
         Warrior(string name);
         ~Warrior();
         void attack(string weapon);
+        void moveRight();
+        void moveLeft();
+        void moveForward();
+        void moveBack();
 };
 
 #endif

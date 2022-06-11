@@ -263,6 +263,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Mage.cpp" />
     <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Warrior.hpp" />
     <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Warrior.cpp" />
+    <ClInclude Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Movable.hpp" />
+    <ClCompile Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\Movable.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\laxen\Documents\Perso\ktr-msc-ss1\build\ZERO_CHECK.vcxproj">

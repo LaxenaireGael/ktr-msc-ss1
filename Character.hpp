@@ -1,10 +1,12 @@
 #ifndef CHARACTER_HPP
 #define CHARACTER_HPP
 
+#include "Movable.hpp"
+
 #include <iostream>
 using namespace std;
 
-class Character{
+class Character: public Movable{
     public:
         Character(string name, string RPGClass);
         string getName() const;
@@ -24,6 +26,10 @@ class Character{
         int wit;
 
         void attack(string weapon);
+        void moveRight();
+        void moveLeft();
+        void moveForward();
+        void moveBack();
 };
 
 

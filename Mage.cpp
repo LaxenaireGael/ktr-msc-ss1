@@ -19,3 +19,16 @@ void Mage::attack(string weapon){
         cout << name << ": Feel the power of my " << weapon << " !" << endl;
     }
 }
+
+void Mage::moveRight(){
+    cout << name << ": moves right furtively." << endl;
+}
+void Mage::moveLeft(){
+    cout << name << ": moves left furtively." << endl;
+}
+void Mage::moveForward(){
+    cout << name << ": moves forward furtively." << endl;
+}
+void Mage::moveBack(){
+    cout << name << ": moves back furtively." << endl;
+}
