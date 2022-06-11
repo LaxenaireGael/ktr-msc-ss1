@@ -15,6 +15,7 @@ class Character: public Movable{
         int getAgility() const;
         int getStrength() const;
         int getWit() const;
+        void unsheath();
 
 
     protected:
@@ -30,6 +31,7 @@ class Character: public Movable{
         void moveLeft();
         void moveForward();
         void moveBack();
+        
 };
 
 

@@ -8,14 +8,8 @@ int main(){
     Mage mage("Robert");
 
     
-    warrior.moveRight () ;
-    warrior.moveLeft () ;
-    warrior.moveBack () ;
-    warrior.moveForward () ;
-    mage.moveRight () ;
-    mage.moveLeft () ;
-    mage.moveBack () ;
-    mage.moveForward () ;
+    warrior.unsheath();
+    mage.unsheath();
 
 
     return 0;

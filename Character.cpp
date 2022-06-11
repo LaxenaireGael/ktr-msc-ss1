@@ -52,3 +52,7 @@ void Character::moveForward(){
 void Character::moveBack(){
     cout << name << ": moves back" << endl;
 }
+
+void Character::unsheath(){
+    cout << name << ": unsheath his weapon." << endl;
+}
